@@ -5,7 +5,7 @@ let filteredAlbums = [];
 // DOM Elements
 const albumGrid = document.getElementById('albumGrid');
 const searchInput = document.getElementById('searchInput');
-const searchBtn = document.getElementById('searchBtn');
+const searchButton = document.getElementById('searchBtn');
 const genreFilter = document.getElementById('genreFilter');
 const sortBy = document.getElementById('sortBy');
 const noResults = document.getElementById('noResults');
