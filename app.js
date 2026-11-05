@@ -44,7 +44,7 @@ function populateGenreFilter() {
 }
 
 // Update statistics
-function updateStats() {
+function updateStatistics() {
     const totalAlbums = filteredAlbums.length;
     const totalArtists = new Set(filteredAlbums.map(album => album.artist)).size;
     const totalGenres = new Set(filteredAlbums.map(album => album.genre)).size;
